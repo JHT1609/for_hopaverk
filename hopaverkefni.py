@@ -18,7 +18,7 @@ while loop1 == True:
 
             login=(UN+","+PW+"\n")
             if line == login:
-                print("Rétt Login")
+                print("Rétt Innskráning")
                 teljari+=1
             elif line != login:
                 pass
@@ -29,9 +29,6 @@ while loop1 == True:
 
         UN=input("Sláðu inn notandanafn: ")
         PW=input("Sláðu inn Leynikóðan:  ")
-        '''
-        with open('notendur.txt','a') as f:
-            f.write(UN+","+PW)'''
 
         class User:
             def __init__(self,a,b):#Seigir um a, b og c fyrir föllin
